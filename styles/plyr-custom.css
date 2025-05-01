@@ -1,0 +1,27 @@
+/* Add this to your global CSS file */
+.plyr {
+  --plyr-color-main: hsl(var(--primary));
+  --plyr-range-fill-background: hsl(var(--primary));
+  --plyr-video-background: transparent;
+  --plyr-menu-background: hsl(var(--card));
+  --plyr-menu-color: hsl(var(--foreground));
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.plyr--video {
+  background: transparent;
+}
+
+.plyr__control--overlaid {
+  background: hsl(var(--primary));
+}
+
+.plyr__control:hover {
+  background: hsl(var(--primary));
+}
+
+.plyr__menu__container {
+  border-radius: 0.5rem;
+  overflow: hidden;
+} 
